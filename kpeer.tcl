@@ -1,5 +1,4 @@
-# killpeer.tcl v0.1a
-#
+# killpeer.tcl v0.1a by bbqnut
 bind sign - * kill_peer
 proc kill_peer {nick uhost hand chan reason} {
   global kpeer
